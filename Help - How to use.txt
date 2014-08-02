@@ -1,0 +1,26 @@
+The aim of the program is find the last modified time differences of multiplatform files in order to don't forget 
+to update any platform file.
+
+In the "Source path" field puts the directory from which the analysis has to start.
+	It's mandatory to insert the directory with an absolute path. It's acceptable both '/' and '\', even mixed in the same path.
+	The path is evaluated in case insensitive mode.
+
+In the "Plaform names" field puts the platforms names: these has to be separated without space and with semicolon
+	The final semicolon it's optional. Names are used case insensitive. Example: "PS3;PC;XONE".
+
+In the "Warning time" field puts the time threshold from which start to warning. 
+	The maximum difference from the most recent modified the worst recent modified platform is above the warning time you'll be advised.
+
+In the combo box on the right of the "Warning time" field is possible to change the unit measure of what written in the "Warning time".
+
+Clicking on the "Start analysis" button the analysis will be performed.
+
+The result it's displayed in a table. Each file found has its own row in the table. Double click in the row for open this file in the explorer.
+
+	The first column indicate the file name and the second the path in which it was found.
+
+	The Max Delta column report the maximum difference explained for the warning time filed. If it's coloured of red this time is over the 
+		warning time indicated in that box.
+
+	For each platform is indicated the last modified time and if it's green is the most recent modified platform. If it's red is the worst 
+		recent modified platform.
