@@ -16,15 +16,15 @@
 #define VER_PRODUCTVERSION          1,0,1
 #define VER_PRODUCTVERSION_STR      "1.01" // Stringa da aggiornare perchè la modifica venga riflessa nel programma
 
-#define VER_COMPANYNAME_STR         "Milestone S.r.l."
-#define VER_FILEDESCRIPTION_STR     "DataLastTimeAnalyzer"
-#define VER_INTERNALNAME_STR        "DataLastTimeAnalyzer"
-#define VER_LEGALCOPYRIGHT_STR      "Copyright © 2014 Milestone S.r.l."
+#define VER_COMPANYNAME_STR         ""
+#define VER_FILEDESCRIPTION_STR     "MultiplatformFileAnalyzer"
+#define VER_INTERNALNAME_STR        "MultiplatformFileAnalyzer"
+#define VER_LEGALCOPYRIGHT_STR      L"Copyright © 2014 Biancucci Maurizio"
 #define VER_LEGALTRADEMARKS1_STR    "All Rights Reserved"
 #define VER_LEGALTRADEMARKS2_STR    VER_LEGALTRADEMARKS1_STR
-#define VER_ORIGINALFILENAME_STR    "DataLastTimeAnalyzer.exe"
-#define VER_PRODUCTNAME_STR         "DataLastTimeAnalyzer"
+#define VER_ORIGINALFILENAME_STR    "MultiplatformFileAnalyzer.exe"
+#define VER_PRODUCTNAME_STR         "MultiplatformFileAnalyzer"
 
-#define VER_COMPANYDOMAIN_STR       "www.milestone.it"
+#define VER_COMPANYDOMAIN_STR       ""
 
 #endif // VERSION_H

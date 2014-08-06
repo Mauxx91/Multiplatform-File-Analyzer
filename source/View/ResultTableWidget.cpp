@@ -265,8 +265,6 @@ void ResultTableWidget::OpenPathInExplorer(int indexRow, int) const
     /*if(basePath.lastIndexOf("\\") == basePath.length()-1 || basePath.lastIndexOf("/") == basePath.length()-1)
         basePath.resize(basePath.length()-1);*/
 
-    //todo
-
     QDesktopServices::openUrl(QUrl("file:///"+ basePath + m_pTable->item(indexRow, 1)->text(), QUrl::TolerantMode));
 }
 
